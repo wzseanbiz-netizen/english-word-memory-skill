@@ -1,0 +1,698 @@
+{
+  "_meta": {
+    "desc": "词音映射库：英文片段 → 拼音/谐音 → 候选汉字。harvest 自《分之道小学外研单词》与《初中英语单词电子版》的「联想」句实例，用于六步框架第 2 步『译码』的候选建议。method 标注该映射所用方法。",
+    "note": "仅供候选参考，实际联想需结合词义与荒诞画面自行创作。"
+  },
+  "entries": [
+    {
+      "chunk": "ar",
+      "py": "ai ren",
+      "hanzi": [
+        "矮",
+        "人"
+      ],
+      "eg": "Are",
+      "method": "拼音"
+    },
+    {
+      "chunk": "ou",
+      "py": "you",
+      "hanzi": [
+        "油"
+      ],
+      "eg": "You",
+      "method": "谐音"
+    },
+    {
+      "chunk": "bo",
+      "py": "bo",
+      "hanzi": [
+        "伯",
+        "菠"
+      ],
+      "eg": "Boy",
+      "method": "谐音"
+    },
+    {
+      "chunk": "wh",
+      "py": "wu",
+      "hanzi": [
+        "乌",
+        "五"
+      ],
+      "eg": "What/Where",
+      "method": "拼音"
+    },
+    {
+      "chunk": "yo",
+      "py": "yao",
+      "hanzi": [
+        "腰"
+      ],
+      "eg": "Your",
+      "method": "拼音"
+    },
+    {
+      "chunk": "na",
+      "py": "na",
+      "hanzi": [
+        "那"
+      ],
+      "eg": "Name",
+      "method": "谐音"
+    },
+    {
+      "chunk": "pl",
+      "py": "ping",
+      "hanzi": [
+        "苹"
+      ],
+      "eg": "Please",
+      "method": "拼音"
+    },
+    {
+      "chunk": "po",
+      "py": "po",
+      "hanzi": [
+        "婆"
+      ],
+      "eg": "Point",
+      "method": "谐音"
+    },
+    {
+      "chunk": "th",
+      "py": "tao",
+      "hanzi": [
+        "桃"
+      ],
+      "eg": "The",
+      "method": "拼音"
+    },
+    {
+      "chunk": "do",
+      "py": "di",
+      "hanzi": [
+        "弟",
+        "德"
+      ],
+      "eg": "Door/Down",
+      "method": "拼音"
+    },
+    {
+      "chunk": "si",
+      "py": "si",
+      "hanzi": [
+        "四"
+      ],
+      "eg": "Sit",
+      "method": "谐音"
+    },
+    {
+      "chunk": "st",
+      "py": "shi",
+      "hanzi": [
+        "石"
+      ],
+      "eg": "Stand",
+      "method": "拼音"
+    },
+    {
+      "chunk": "wi",
+      "py": "wu",
+      "hanzi": [
+        "乌"
+      ],
+      "eg": "Window",
+      "method": "拼音"
+    },
+    {
+      "chunk": "bl",
+      "py": "hei ban",
+      "hanzi": [
+        "黑",
+        "板"
+      ],
+      "eg": "Blackboard",
+      "method": "拼音"
+    },
+    {
+      "chunk": "bi",
+      "py": "bi",
+      "hanzi": [
+        "笔"
+      ],
+      "eg": "Bird",
+      "method": "谐音"
+    },
+    {
+      "chunk": "tw",
+      "py": "tiao",
+      "hanzi": [
+        "跳"
+      ],
+      "eg": "Tweet",
+      "method": "拼音"
+    },
+    {
+      "chunk": "de",
+      "py": "de",
+      "hanzi": [
+        "德"
+      ],
+      "eg": "Desk",
+      "method": "谐音"
+    },
+    {
+      "chunk": "fr",
+      "py": "fu",
+      "hanzi": [
+        "富"
+      ],
+      "eg": "From",
+      "method": "谐音"
+    },
+    {
+      "chunk": "ye",
+      "py": "ye",
+      "hanzi": [
+        "爷"
+      ],
+      "eg": "Year",
+      "method": "谐音"
+    },
+    {
+      "chunk": "ab",
+      "py": "a bo",
+      "hanzi": [
+        "阿",
+        "伯"
+      ],
+      "eg": "About",
+      "method": "拼音"
+    },
+    {
+      "chunk": "am",
+      "py": "ao men",
+      "hanzi": [
+        "澳",
+        "门"
+      ],
+      "eg": "America",
+      "method": "拼音"
+    },
+    {
+      "chunk": "en",
+      "py": "e nan",
+      "hanzi": [
+        "鹅",
+        "南"
+      ],
+      "eg": "England",
+      "method": "拼音"
+    },
+    {
+      "chunk": "our",
+      "py": "ou",
+      "hanzi": [
+        "藕"
+      ],
+      "eg": "Our",
+      "method": "谐音"
+    },
+    {
+      "chunk": "ci",
+      "py": "ci",
+      "hanzi": [
+        "刺"
+      ],
+      "eg": "City",
+      "method": "拼音"
+    },
+    {
+      "chunk": "ve",
+      "py": "wei sheng",
+      "hanzi": [
+        "维",
+        "生"
+      ],
+      "eg": "Very",
+      "method": "拼音"
+    },
+    {
+      "chunk": "ca",
+      "py": "mao ta",
+      "hanzi": [
+        "帽",
+        "它"
+      ],
+      "eg": "Capital",
+      "method": "拼音"
+    },
+    {
+      "chunk": "it",
+      "py": "yi ge",
+      "hanzi": [
+        "一",
+        "个"
+      ],
+      "eg": "Capital",
+      "method": "拼音"
+    },
+    {
+      "chunk": "hu",
+      "py": "hu",
+      "hanzi": [
+        "护"
+      ],
+      "eg": "Husband",
+      "method": "谐音"
+    },
+    {
+      "chunk": "sh",
+      "py": "shi",
+      "hanzi": [
+        "士"
+      ],
+      "eg": "Husband",
+      "method": "拼音"
+    },
+    {
+      "chunk": "ph",
+      "py": "pang hou",
+      "hanzi": [
+        "胖",
+        "猴"
+      ],
+      "eg": "Photo",
+      "method": "拼音"
+    },
+    {
+      "chunk": "li",
+      "py": "li",
+      "hanzi": [
+        "梨",
+        "利"
+      ],
+      "eg": "lift",
+      "method": "谐音"
+    },
+    {
+      "chunk": "in",
+      "py": "de",
+      "hanzi": [
+        "德"
+      ],
+      "eg": "inside",
+      "method": "谐音"
+    },
+    {
+      "chunk": "co",
+      "py": "ke le",
+      "hanzi": [
+        "可",
+        "乐"
+      ],
+      "eg": "cover",
+      "method": "拼音"
+    },
+    {
+      "chunk": "tr",
+      "py": "xun lian",
+      "hanzi": [
+        "训",
+        "练"
+      ],
+      "eg": "training",
+      "method": "熟词"
+    },
+    {
+      "chunk": "ea",
+      "py": "di qiu",
+      "hanzi": [
+        "地",
+        "球"
+      ],
+      "eg": "earthquake",
+      "method": "熟词"
+    },
+    {
+      "chunk": "qu",
+      "py": "zhen",
+      "hanzi": [
+        "震"
+      ],
+      "eg": "earthquake",
+      "method": "熟词"
+    },
+    {
+      "chunk": "cl",
+      "py": "chuang lian",
+      "hanzi": [
+        "窗",
+        "帘"
+      ],
+      "eg": "clear",
+      "method": "熟词"
+    },
+    {
+      "chunk": "wa",
+      "py": "zhan zheng",
+      "hanzi": [
+        "战",
+        "争"
+      ],
+      "eg": "warn",
+      "method": "熟词"
+    },
+    {
+      "chunk": "ful",
+      "py": "fu li",
+      "hanzi": [
+        "福",
+        "利"
+      ],
+      "eg": "harmful",
+      "method": "拼音"
+    },
+    {
+      "chunk": "er",
+      "py": "er",
+      "hanzi": [
+        "耳"
+      ],
+      "eg": "clear",
+      "method": "谐音"
+    },
+    {
+      "chunk": "wer",
+      "py": "quan li",
+      "hanzi": [
+        "权",
+        "利"
+      ],
+      "eg": "power",
+      "method": "熟词"
+    },
+    {
+      "chunk": "po",
+      "py": "pa",
+      "hanzi": [
+        "怕"
+      ],
+      "eg": "power",
+      "method": "谐音"
+    },
+    {
+      "chunk": "br",
+      "py": "bing ren",
+      "hanzi": [
+        "病",
+        "人"
+      ],
+      "eg": "Brother",
+      "method": "拼音"
+    }
+  ],
+  "encoding": {
+    "_meta": "英文编码表（固定）：字母/字母组合 → 中文意象。来源《英文编码.pptx》。组合匹配长优先于短。走编码法时优先查本段，保证跨词意象一致。",
+    "single": {
+      "a": "苹果",
+      "b": "笔",
+      "c": "月牙",
+      "d": "笛子",
+      "e": "鹅",
+      "f": "斧头",
+      "g": "鸽子",
+      "h": "椅子",
+      "i": "蜡烛",
+      "j": "钩子",
+      "k": "机关枪",
+      "l": "靴子",
+      "m": "汉堡包",
+      "n": "门",
+      "o": "甜甜圈",
+      "p": "皮鞋",
+      "q": "气球",
+      "r": "小草",
+      "s": "海马",
+      "t": "伞",
+      "u": "水桶",
+      "v": "夹子",
+      "w": "王冠",
+      "x": "剪刀",
+      "y": "晒衣杆",
+      "z": "闪电"
+    },
+    "combo": {
+      "ab": "阿伯",
+      "ad": "阿弟",
+      "al": "阿里",
+      "ap": "阿婆",
+      "ar": "矮人",
+      "au": "遨游",
+      "bl": "玻璃",
+      "br": "病人",
+      "ch": "菜花",
+      "ck": "刺客",
+      "cl": "齿轮",
+      "co": "可乐",
+      "com": "电脑",
+      "cr": "超人",
+      "cu": "醋",
+      "ic": "IC卡",
+      "im": "姨妈",
+      "ive": "夏威夷",
+      "oo": "眼镜",
+      "or": "或者",
+      "ou": "藕",
+      "ph": "电话",
+      "pl": "漂亮",
+      "pr": "仆人",
+      "sh": "上海",
+      "sl": "森林",
+      "squ": "山区",
+      "st": "石头",
+      "sw": "书屋",
+      "th": "图画",
+      "dr": "大人",
+      "fl": "俘虏",
+      "fr": "妇人",
+      "gl": "公路",
+      "gr": "工人",
+      "tion": "神",
+      "tr": "土人",
+      "wh": "舞会"
+    }
+  },
+  "affix": {
+    "_meta": "词根词缀法（方法二）精简自动匹配表：仅含前缀/后缀，与 references/affix.md 一致。词根内部匹配不可靠，由智能体按 affix.md 判断。来源于通用英语形态学常识，非原 PPT 内容。",
+    "prefix": [
+      {
+        "affix": "un",
+        "meaning": "不；相反"
+      },
+      {
+        "affix": "re",
+        "meaning": "再；重新"
+      },
+      {
+        "affix": "pre",
+        "meaning": "在…之前"
+      },
+      {
+        "affix": "dis",
+        "meaning": "不；分离"
+      },
+      {
+        "affix": "mis",
+        "meaning": "错误"
+      },
+      {
+        "affix": "in",
+        "meaning": "不"
+      },
+      {
+        "affix": "im",
+        "meaning": "不(m/p/b前)"
+      },
+      {
+        "affix": "il",
+        "meaning": "不(l前)"
+      },
+      {
+        "affix": "ir",
+        "meaning": "不(r前)"
+      },
+      {
+        "affix": "inter",
+        "meaning": "在…之间"
+      },
+      {
+        "affix": "trans",
+        "meaning": "跨；转移"
+      },
+      {
+        "affix": "super",
+        "meaning": "超"
+      },
+      {
+        "affix": "sub",
+        "meaning": "下；次"
+      },
+      {
+        "affix": "anti",
+        "meaning": "反对"
+      },
+      {
+        "affix": "auto",
+        "meaning": "自动"
+      },
+      {
+        "affix": "bi",
+        "meaning": "二"
+      },
+      {
+        "affix": "tele",
+        "meaning": "远"
+      },
+      {
+        "affix": "co",
+        "meaning": "共同"
+      },
+      {
+        "affix": "ex",
+        "meaning": "出；前任"
+      },
+      {
+        "affix": "de",
+        "meaning": "去除；向下"
+      },
+      {
+        "affix": "en",
+        "meaning": "使…"
+      },
+      {
+        "affix": "em",
+        "meaning": "使…"
+      },
+      {
+        "affix": "non",
+        "meaning": "非"
+      },
+      {
+        "affix": "over",
+        "meaning": "过度"
+      },
+      {
+        "affix": "under",
+        "meaning": "不足"
+      }
+    ],
+    "suffix": [
+      {
+        "affix": "tion",
+        "meaning": "名词：行为/状态"
+      },
+      {
+        "affix": "sion",
+        "meaning": "名词：行为/状态"
+      },
+      {
+        "affix": "ation",
+        "meaning": "名词：行为/状态"
+      },
+      {
+        "affix": "ment",
+        "meaning": "名词：结果/状态"
+      },
+      {
+        "affix": "ness",
+        "meaning": "名词：性质"
+      },
+      {
+        "affix": "er",
+        "meaning": "名词：人/物"
+      },
+      {
+        "affix": "or",
+        "meaning": "名词：人/物"
+      },
+      {
+        "affix": "ist",
+        "meaning": "名词：专家"
+      },
+      {
+        "affix": "ful",
+        "meaning": "形容词：充满"
+      },
+      {
+        "affix": "less",
+        "meaning": "形容词：无"
+      },
+      {
+        "affix": "able",
+        "meaning": "形容词：能…的"
+      },
+      {
+        "affix": "ible",
+        "meaning": "形容词：能…的"
+      },
+      {
+        "affix": "ive",
+        "meaning": "形容词"
+      },
+      {
+        "affix": "ous",
+        "meaning": "形容词：多…的"
+      },
+      {
+        "affix": "ious",
+        "meaning": "形容词：多…的"
+      },
+      {
+        "affix": "al",
+        "meaning": "形容词"
+      },
+      {
+        "affix": "ial",
+        "meaning": "形容词"
+      },
+      {
+        "affix": "ly",
+        "meaning": "副词(亦形容词)"
+      },
+      {
+        "affix": "ize",
+        "meaning": "动词：使…化"
+      },
+      {
+        "affix": "ise",
+        "meaning": "动词：使…化"
+      },
+      {
+        "affix": "ity",
+        "meaning": "名词：性质"
+      },
+      {
+        "affix": "ty",
+        "meaning": "名词：性质"
+      },
+      {
+        "affix": "ance",
+        "meaning": "名词：性质/行为"
+      },
+      {
+        "affix": "ence",
+        "meaning": "名词：性质/行为"
+      },
+      {
+        "affix": "ant",
+        "meaning": "形容词/名词"
+      },
+      {
+        "affix": "ent",
+        "meaning": "形容词/名词"
+      }
+    ]
+  }
+}

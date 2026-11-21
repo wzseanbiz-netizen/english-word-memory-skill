@@ -25,7 +25,22 @@ METHOD_ORDER = {"熟词": 0, "拼音": 1, "谐音": 2, "编码": 3}
 def load_map():
     with open(MAP_PATH, "r", encoding="utf-8") as f:
         data = json.load(f)
-    return data.get("entries", []), data.get("encoding", {}), data.get("affix", {})
+    return data.get("entries", []), data.get("encoding", {}), data.get("affix", {}), data.get("pinyin", {})
+
+
+def double_letter_candidates(word, pinyin, encoding):
+    """找单词中的双写字母段，给出「拼音首字母」与「编码复数」两条候选（选型见输出提示）。"""
+    w = word.lower()
+    singles = encoding.get("single", {})
+    found = []
+    seen = set()
+    for i in range(len(w) - 1):
+        pair = w[i:i + 2]
+        if pair[0] == pair[1] and pair[0].isalpha() and pair not in seen:
+            seen.add(pair)
+            py = pinyin.get(pair) if isinstance(pinyin.get(pair), dict) else None
+            found.append((pair, py, singles.get(pair[0], "□未编码")))
+    return found
 
 
 def encode_word(word, encoding):
@@ -133,7 +148,7 @@ def main():
                    help="assoc=联想记忆法(七步框架，默认)；affix=词根词缀记忆法(方法二)")
     args = ap.parse_args()
 
-    entries, encoding, affix = load_map()
+    entries, encoding, affix, pinyin = load_map()
 
     if args.mode == "affix":
         print_affix(args.word, affix, args.meaning, args.pos, args.example)
@@ -169,6 +184,19 @@ def main():
         print("  提醒: 编码法只是四法之一、非默认。优先用熟词/拼音把大块并成好记中文；仅当某段熟词/拼音都无好解时才用这些意象，不要为用编码而逐字母拆——模块越少越好。串联句词义须融进剧情（不得贴标签）。")
     else:
         print("  · （单词为空）")
+
+    print("\n步骤3c 双写字母段候选（拼音首字母 vs 编码复数，按句中角色二选一）:")
+    doubles = double_letter_candidates(word, pinyin, encoding)
+    if doubles:
+        for pair, py, enc in doubles:
+            if py:
+                print("  · %s → %s（拼音首字母·%s）" % (pair, py["cn"], py["type"]))
+            else:
+                print("  · %s → （拼音首字母表未收录）" % pair)
+            print("     或 %s → 两个%s（编码复数，与单字母表一致；量词按物选：两条海马/两把伞）" % (pair, enc))
+        print("  选型: 段位要『动』（追/喊/抱/拿）用人物/动物词；当道具（扁担/掩体）用编码复数；画面质量相当时优先编码复数（零新增记忆）。双写字母必须各有去处或合并为一段——先过『拼接核对』。")
+    else:
+        print("  · （无双写字母段）")
 
     print("\n步骤4 碎片意象（每段一个荒诞镜头，只备料不成句）:")
     if hits:
